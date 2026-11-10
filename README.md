@@ -2,12 +2,22 @@
 
 An individual data analysis project for **Programming for Data Analysis (CA1)** at Singapore Polytechnic. It explores how experience, work type and location affect salary in job postings.
 
-## Key findings
+## Charts and findings
 
 ### Salaries are right-skewed
 The mean annual salary ($88,411) is higher than the median ($80,000), because a few very high salaries pull the average up.
 
 ![Histogram of annual salaries](images/salary-distribution.png)
+
+### Top-paying locations
+The ten locations with the highest average annual salary. Averages for places with few postings can be very high, so treat them with care.
+
+![Bar chart of the top 10 locations by average annual salary](images/top-locations.png)
+
+### Share of salary by experience level
+Executive (29.0%) and Director (24.3%) have the largest slices, and Internship (7.9%) the smallest.
+
+![Pie chart of average salary by experience level](images/salary-share-by-experience.png)
 
 ### Work type matters
 Contract roles have the highest median salary, and internships the lowest. Full-time roles have many high outliers.
